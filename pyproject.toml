@@ -1,0 +1,17 @@
+[project]
+name = "ece-big-data-gregoire-jouannaud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "g-jouannaud-ece", email = "gregoire.jouannaud@edu.ece.fr" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ece-big-data-gregoire-jouannaud = "ece_big_data_gregoire_jouannaud:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
