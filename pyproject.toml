@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "duckdb>=1.5.6",
     "faker>=40.37.0",
 ]
 
@@ -15,6 +16,7 @@ dependencies = [
 ece-big-data-gregoire-jouannaud = "ece_big_data_gregoire_jouannaud:main"
 dataset-users = "ece_big_data_gregoire_jouannaud.dataset_users:main"
 dataset-orders = "ece_big_data_gregoire_jouannaud.dataset_orders:main"
+orders-report = "ece_big_data_gregoire_jouannaud.orders_report:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
